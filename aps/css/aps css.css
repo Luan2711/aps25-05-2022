@@ -1,0 +1,43 @@
+body{
+    background-image: url(../imagens/fontes-de-energia-renovaveis-e-nao-renovaveis-og.jpg);
+    background-repeat: repeat;
+    background-size: 50%;
+}
+
+
+.container{
+    display:grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+grid-template-areas: "nav nav nav"
+                     "main main main"         ;
+   padding: 300px;                    
+margin: 0;
+}
+
+#nav{
+    background-color:rgb(188, 240, 196);
+grid-area: nav;
+height: 250px;
+border-radius: 1em;
+padding: 80px;
+}
+
+#main{
+    background-color: white;
+height: 350vh;
+grid-area: main;
+border-radius: 0.8em;
+padding: 100px;
+}
+
+
+#menu{
+    text-decoration: none;
+    text-align: inherit;
+    font-size:40px;
+padding: 10px;
+
+}
+
